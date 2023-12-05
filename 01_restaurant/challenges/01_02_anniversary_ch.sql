@@ -7,6 +7,9 @@
 -- Hint: SQLite offers the INTEGER and REAL datatypes
 
 CREATE TABLE AnniversaryAttendees (
-CustomID INTEGER
+CustomID INTEGER,
 PartySize INTEGER
 )
+
+ALTER TABLE AnniversaryAttendees
+ADD COLUMN PartySize INTEGER
